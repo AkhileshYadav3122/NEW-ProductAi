@@ -1,0 +1,77 @@
+.ql-editor {
+  height: 24rem;
+  background-color: white !important;
+}
+
+.app {
+  margin: 1rem 4rem;
+}
+
+@media (max-width: 415px) {
+  .app {
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+.app .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc !important;
+}
+
+/* Snow Theme */
+.app .ql-snow.ql-toolbar {
+  display: block;
+  background: none !important;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+/* Bubble Theme */
+.app .ql-bubble .ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.app .ql-editor {
+  min-height: 18em;
+}
+
+.themeSwitcher {
+  margin-top: 0.5em;
+  font-size: small;
+}
+
+/* @media (max-width: 415px) {
+  .form-control{
+    width: fit-content;
+  }
+} */
+
+@media (max-width: 500px) {
+  .span_icon {
+    display: none;
+  }
+}
+
+@media (max-width: 616px) {
+  .search_btn {
+    /* font-size: small; */
+    padding: 2px;
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .side_buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 0px !important;
+
+
+
+
+    ;
+  }
+}

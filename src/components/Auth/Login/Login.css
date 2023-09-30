@@ -1,0 +1,75 @@
+/* body {
+    background-color: blueviolet;
+} */
+
+
+
+
+.logo-login {
+    /* width: 280px; */
+    width: 250px;
+    line-height: 1;
+
+  }
+
+
+.logo-login img {
+  max-height: 26px;
+  margin-right: 6px;
+}
+
+.logo-login span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #012970;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  margin-inline: auto;
+}
+
+
+
+.card-login {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-header-login,
+  .card-footer-login {
+    border-color: #ebeef4;
+    background-color: #fff;
+    color: #798eb3;
+    padding: 15px;
+  }
+  
+  .card-title-login {
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .card-title-login span {
+    color: #899bbd;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .card-body-login {
+    padding: 10px 40px 30px 40px;
+  }
+  
+  /* .card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+  } */
+  
+
+  .card-body-login .form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}

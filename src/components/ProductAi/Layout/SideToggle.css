@@ -1,0 +1,80 @@
+/* Styling for offcanvas sidebar */
+.offcanvas {
+    background-color: #fff !important;
+    width: 300px !important;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.offcanvas.show {
+    transform: translateX(0) !important;
+}
+
+.offcanvas-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Close button styles */
+.btn-close {
+    color: #000;
+}
+
+.nav-items {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+
+}
+
+.nav-items:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+
+/* Dropdown menu styles */
+.D_menu {
+    background-color: #fff;
+    border: none;
+    /* Remove border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    transition: opacity 0.3s ease-in-out !important;
+    width: 100% !important;
+
+}
+
+.dropdown-item {
+    padding: 10px 20px !important;
+    color: #333 !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: #000 !important;
+}
+
+/* Divider styles */
+.dropdown-divider {
+    border-top: 1px solid #dee2e6;
+    margin: 8px 0;
+    /* Adjust spacing */
+}
+
+/* Add custom styling for the icons */
+/* .bi {
+  font-size: 1rem !important;
+  margin-right: 10px !important;
+} */
